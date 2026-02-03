@@ -6,6 +6,8 @@ HTTP Link Extractor with Crawling - Extract links with depth-based crawling
 Usage:
   extractlinkdz [options] [seed_urls...]
 
+```
+
 Input Sources (use one):
   -url string           Make HTTP request to URL
   -file string          Read HTTP response from file
@@ -48,3 +50,4 @@ Examples:
   # Extract from .har file with crawling
   extractlinkdz -har network.har -crawl -depth 2
 
+```
